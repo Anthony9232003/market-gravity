@@ -11,3 +11,53 @@ center of mass concept from calculus.
 Fourthly show this center of mass on a heatmap with 2-d graphs, and also 
 spatially on a 3-d graph. 
 
+=== First section data pulling ===
+
+import libraries:
+yfinance
+pandas
+numpy
+matplotlib 
+scipy.stats to use KDE density
+
+def get_data(value (SP or VIX), time, other arguments):
+download adjusted close prices using yfinance
+return price data
+
+
+=== Second Section Organization of data === 
+
+function prepare_data(price_data): 
+calculate spy daily returns 
+calculate vix daily percentage changes 
+remove missing values 
+combine both variables into one dataframe
+return cleaned dataframe
+
+
+=== Third Section Density Calculation ===
+
+def calculate_density(cleaned_data):
+use spy returns as x-values 
+use vix changes as y values 
+estimate density at each x-y point 
+return density values 
+
+function calculate_center_of_mass(cleaned_data, density_values)
+use density values as weights 
+calculate weighted average x-coordinate 
+calculate weighted average y coordinate
+return center of mass point 
+
+
+=== Fourth Section Create Graphs === 
+
+function create_heatmap(cleaned_data, density_values, center_of_mass): 
+plot x-values and y-values 
+use color scale to respresent density 
+add center of mass point to graph 
+label axes and title 
+show graph 
+
+
+
