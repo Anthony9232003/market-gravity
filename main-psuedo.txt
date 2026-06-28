@@ -1,0 +1,13 @@
+Here is the psuedo code for the main file 
+
+First, I need to collect the data for this project using yfinance API. 
+
+Secondly, I need to organize the data using pandas library and then graph 
+it using matplotlib.
+
+Thirdly, I can calculate the density (z axis) for the two values using the 
+center of mass concept from calculus. 
+
+Fourthly show this center of mass on a heatmap with 2-d graphs, and also 
+spatially on a 3-d graph. 
+
