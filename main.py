@@ -7,8 +7,7 @@ from data_loader import get_market_data
 
 def main(): 
     raw_data = get_market_data(
-        tickers="SPY", "^VIX", 
-        start_date="2018-01-01", 
-        end_date="2026-01-01"
+        tickers=["SPY", "^VIX"], 
+        start="2018-01-01", 
+        ende="2026-01-01"
     )
-    
