@@ -12,7 +12,7 @@ def prepare_data(raw_data):
     clean_data["spy_return"] = prices["SPY"].pct_change()
     clean_data["vix_change"] = prices["^VIX"].pct_change()
 
-    clean_data = clean_data.dropa()
+    clean_data = clean_data.dropna()
 
     return clean_data 
 
