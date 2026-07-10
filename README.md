@@ -14,7 +14,7 @@ changes in density within the plotted data are denoted by a change of color whic
 
 ====Here our time window is 21 trading days====
 
-![Market Gravity Figure](Market Gravity Figure.png)<img width="1000" height="700" alt="Market Gravity Figure" src="https://github.com/user-attachments/assets/4fa57e4e-7da7-4639-bba4-e387fc6ce0d1" />
+<img width="1000" height="700" alt="Market Gravity Figure" src="https://github.com/user-attachments/assets/4fa57e4e-7da7-4639-bba4-e387fc6ce0d1" />
 
 
 Then I marked the center of mass with a red X. This can show the changing relationship between these two metrics and allow me to 
