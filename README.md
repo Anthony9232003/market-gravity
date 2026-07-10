@@ -12,7 +12,7 @@ I pulled from the yfinance python library.
 Using this kde approach I was able to have a total density that I could then calculate the center of mass for. Also, on the graph the 
 changes in density within the plotted data are denoted by a change of color which I have provided a scale for.
 
-![Here our time window is 21 trading days](/Users/anthonyvarriale/Desktop/Market Gravity Figure.png)
+![Here our time window is 21 trading days](/Users/anthonyvarriale/Desktop/Market_Gravity_Figure.png)
 
 Then I marked the center of mass with a red X. This can show the changing relationship between these two metrics and allow me to 
 more deeply understand how they behave in relation with each other, and over time. 
